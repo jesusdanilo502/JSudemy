@@ -7,5 +7,5 @@ var numero=0;
 / Math.ceil = redondea el numero mayo del decimal
 */
 
- numero= Math.ceil(math.random()*10);
+  /*numero= Math.ceil(Math.random()*10);
  numeroAleatoreo.innerHTML= numero;
