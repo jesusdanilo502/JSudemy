@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ejemplos</title>
+</head>
+<body>
+ <script>
+     function fac(n) {
+         if(n==0)
+             return 1;
+         else
+             return fac(n-1)*n;
+     }
+     console.log(fac(8))
+     console.log(3>5)
+
+     var x =30;
+     console.log("el valor de x es", x);
+     console.log(Math.max(2,4));
+
+
+     /////
+     var elNumero = Number(prompt("Dame un numero", ""));
+     if (!isNaN(elNumero))
+         alert("Tu numero es la raiz cuadrada de " +elNumero* elNumero);
+     else
+         alert(" hey ¿ porq no me diste un numero?");
+
+
+     /*if con anidados con varios caminos*/
+
+     var num= Number(prompt("dame un numero", "0"));
+     if (num<10)
+         alert("chico");
+     else if(num<100)
+         alert("mediano");
+     else
+         alert("grande");
+
+ </script>
+
+</body>
+</html>
