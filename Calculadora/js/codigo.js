@@ -7,7 +7,9 @@ var p = {
     accion: null,
     digito: null,
     operaciones: document.querySelector("#operaciones"),
-    cantidadSignos: 0
+    cantidadSignos: 0,
+    cantidadDecimal: false,
+    resultado: false
 }
 /* OBJETOS CON LOS METODOS DE LA CALCULADORA */
 
@@ -18,6 +20,23 @@ var m = {
         }
 
     },
+    teclado: function(){
+       document.addEventListener("keydown",m.oprimir);
+    },
+    oprimir: function(tecla){
+      console.log(tecla.keyCode);
+
+      if(tecla.keyCode == 49 ){
+          p.accion="numero";
+          p.digito= 1;
+      }
+        if(tecla.keyCode == 50 ){
+            p.accion="numero";
+            p.digito= 2;
+        }
+      m.calculadora(p.accion,p.digito);
+    },
+
     oprimirTecla: function (tecla) {
         p.accion = tecla.target.getAttribute("class");
         p.digito = tecla.target.innerHTML;
@@ -27,12 +46,20 @@ var m = {
     calculadora: function (accion, digito) {
         switch (accion) {
             case "numero":
+
                 p.cantidadSignos = 0;
+
                 if (p.operaciones.innerHTML == 0) {
                     p.operaciones.innerHTML = digito;
-                }
-                else {
-                    p.operaciones.innerHTML += digito;
+                } else {
+                    if (p.resultado) {
+                        p.resultado= false;
+                        p.operaciones.innerHTML = digito;
+
+                    } else {
+                        p.operaciones.innerHTML += digito;
+                    }
+
                 }
 
                 break;
@@ -44,22 +71,34 @@ var m = {
                     }
                     else {
                         p.operaciones.innerHTML += digito;
+                        p.cantidadDecimal = false;
+                        p.resultado= false;
                     }
 
                 }
 
                 break;
             case "decimal":
-                console.log("decimal");
+
+                if (!p.cantidadDecimal) {
+                    p.operaciones.innerHTML += digito;
+                    p.cantidadDecimal = true;
+                    p.resultado= false;
+
+                }
+
                 break;
             case "igual":
-                console.log("igual");
+                p.operaciones.innerHTML = eval(p.operaciones.innerHTML);
+                p.resultado = true;
+
                 break;
         }
-
+       /* console.log("p.resultado", p.resultado);*/
     },
     borrarCalculadora: function () {
         p.operaciones.innerHTML = 0;
     }
 }
 m.inicio();
+m.teclado();
