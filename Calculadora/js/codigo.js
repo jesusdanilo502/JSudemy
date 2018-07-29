@@ -11,6 +11,8 @@ var p = {
     cantidadDecimal: false,
     resultado: false
 }
+
+
 /* OBJETOS CON LOS METODOS DE LA CALCULADORA */
 
 var m = {
@@ -20,21 +22,29 @@ var m = {
         }
 
     },
-    teclado: function(){
-       document.addEventListener("keydown",m.oprimir);
+    teclado: function () {
+        document.addEventListener("keydown", m.oprimir);
     },
-    oprimir: function(tecla){
-      console.log(tecla.keyCode);
+    oprimir: function (tecla) {
+        console.log(tecla.keyCode);
 
-      if(tecla.keyCode == 49 ){
-          p.accion="numero";
-          p.digito= 1;
-      }
-        if(tecla.keyCode == 50 ){
-            p.accion="numero";
-            p.digito= 2;
+        if (tecla.keyCode == 49) {
+            p.accion = "numero";
+            p.digito = 1;
         }
-      m.calculadora(p.accion,p.digito);
+        else if (tecla.keyCode == 50) {
+            p.accion = "numero";
+            p.digito = 2;
+        }
+        else if (tecla.keyCode == 46) {
+            p.accion = "";
+            m.borrarCalculadora();
+        }
+        else {
+            p.digito = "";
+            p.accion = "";
+        }
+        m.calculadora(p.accion, p.digito);
     },
 
     oprimirTecla: function (tecla) {
@@ -49,11 +59,11 @@ var m = {
 
                 p.cantidadSignos = 0;
 
-                if (p.operaciones.innerHTML == 0) {
+                if (p.operaciones.innerHTML == "0") {
                     p.operaciones.innerHTML = digito;
                 } else {
                     if (p.resultado) {
-                        p.resultado= false;
+                        p.resultado = false;
                         p.operaciones.innerHTML = digito;
 
                     } else {
@@ -65,14 +75,14 @@ var m = {
                 break;
             case "signo":
                 p.cantidadSignos++
-                if (p.cantidadSignos == 1) {
-                    if (p.operaciones.innerHTML == 0) {
+                if (p.cantidadSignos == "1") {
+                    if (p.operaciones.innerHTML == "0") {
                         p.operaciones.innerHTML = 0;
                     }
                     else {
                         p.operaciones.innerHTML += digito;
                         p.cantidadDecimal = false;
-                        p.resultado= false;
+                        p.resultado = false;
                     }
 
                 }
@@ -83,7 +93,7 @@ var m = {
                 if (!p.cantidadDecimal) {
                     p.operaciones.innerHTML += digito;
                     p.cantidadDecimal = true;
-                    p.resultado= false;
+                    p.resultado = false;
 
                 }
 
@@ -91,12 +101,17 @@ var m = {
             case "igual":
                 p.operaciones.innerHTML = eval(p.operaciones.innerHTML);
                 p.resultado = true;
-
+                var expresion = /./g;
+                if (!expresion.test(p.operaciones.innerHTML)) {
+                    p.cantidadDecimal = true;
+                }
+                p.resultado = true;
                 break;
         }
-       /* console.log("p.resultado", p.resultado);*/
+        /* console.log("p.resultado", p.resultado);*/
     },
     borrarCalculadora: function () {
+        p.resultado = false;
         p.operaciones.innerHTML = 0;
     }
 }
