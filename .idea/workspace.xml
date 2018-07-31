@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78318313-b6f7-498c-92eb-e896cb412e27" name="Default" comment="programaciòn digitos">
+    <list default="true" id="78318313-b6f7-498c-92eb-e896cb412e27" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/SlideShow/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlideShow/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlideShow/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/js/codigo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/js/codigo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculadora/index.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SlideShow/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="456">
+              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codigo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Calculadora/js/codigo.js">
+      <file leaf-file-name="slide.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SlideShow/js/slide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="428">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -40,12 +42,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +65,9 @@
         <option value="$PROJECT_DIR$/Calculadora/estilos.css" />
         <option value="$PROJECT_DIR$/Calculadora/index.html" />
         <option value="$PROJECT_DIR$/Calculadora/js/codigo.js" />
+        <option value="$PROJECT_DIR$/SlideShow/estilos.css" />
+        <option value="$PROJECT_DIR$/SlideShow/index2.html" />
+        <option value="$PROJECT_DIR$/SlideShow/js/slide.js" />
       </list>
     </option>
   </component>
@@ -68,7 +82,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="593" />
+    <option name="width" value="546" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -79,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,27 +103,36 @@
             <path>
               <item name="JSudemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSudemy" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="SlideShow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSudemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSudemy" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculadora" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="SlideShow" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSudemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSudemy" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="SlideShow" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="slide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSudemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSudemy" type="462c0819:PsiDirectoryNode" />
+              <item name="SlideShow" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -120,6 +142,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\JSudemy\SlideShow" />
       <recent name="C:\xampp\htdocs\JSudemy\Calculadora\css" />
     </key>
   </component>
@@ -150,7 +173,8 @@
       <workItem from="1531270880737" duration="1500000" />
       <workItem from="1532569024140" duration="6635000" />
       <workItem from="1532653495758" duration="5364000" />
-      <workItem from="1532806492527" duration="2957000" />
+      <workItem from="1532806492527" duration="3343000" />
+      <workItem from="1532997968932" duration="9083000" />
     </task>
     <task id="LOCAL-00001" summary="programaciòn digitos">
       <created>1532661621388</created>
@@ -159,26 +183,34 @@
       <option name="project" value="LOCAL" />
       <updated>1532661621403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="correciones finales calculadora">
+      <created>1532873939877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532873939877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20090000" />
+    <option name="totallyTimeSpent" value="29559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37738618" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3290938" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.3243243" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.24483307" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.53411305" weight="0.2483871" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19399707" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.3290938" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -188,7 +220,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3290938" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,16 +266,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="programaciòn digitos" />
-    <option name="LAST_COMMIT_MESSAGE" value="programaciòn digitos" />
+    <MESSAGE value="correciones finales calculadora" />
+    <option name="LAST_COMMIT_MESSAGE" value="correciones finales calculadora" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calculadora/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculadora/js/codigo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
@@ -543,14 +568,6 @@
     <entry file="file://$PROJECT_DIR$/Calculadora/css/estilos.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notescommands.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculadora/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -561,7 +578,59 @@
     <entry file="file://$PROJECT_DIR$/Calculadora/js/codigo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notescommands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/img/logotipo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/img/slide/Thumbs.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/estilos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/js/slide.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SlideShow/js/slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
