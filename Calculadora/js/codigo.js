@@ -68,6 +68,7 @@ var m = {
 
                     } else {
                         p.operaciones.innerHTML += digito;
+                        p.get
                     }
 
                 }
